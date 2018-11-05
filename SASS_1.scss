@@ -1,0 +1,65 @@
+$base-color: red;
+
+.basecolor{
+  width: 100x;
+  height: 100px;
+  background-color: $base-color;
+}
+
+
+.darken1{
+  width: 100x;
+  height: 100px;
+  background-color: darken( $base-color, 10% )
+  
+}
+
+.darken2{
+  width: 100x;
+  height: 100px;
+  background-color: darken( $base-color, 20% )
+  
+}
+
+.darken3{
+  width: 100x;
+  height: 100px;
+  background-color: darken( $base-color, 30% )
+  
+}
+
+.darken4{
+  width: 100x;
+  height: 100px;
+  background-color: darken( $base-color, 40% )
+  
+}
+
+.lighten1{
+  width: 100x;
+  height: 100px;
+  background-color: lighten( $base-color, 10% )
+}
+
+.lighten2{
+  width: 100x;
+  height: 100px;
+  background-color: lighten( $base-color, 20% )
+}
+
+
+.lighten3{
+  width: 100x;
+  height: 100px;
+  background-color: lighten( $base-color, 30% )
+}
+
+
+.lighten4{
+  width: 100x;
+  height: 100px;
+  background-color: lighten( $base-color, 40% )
+}
+
+
+

@@ -1,0 +1,21 @@
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background: pink;
+}
+
+nav li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+
+@media (max-width: 450px) {
+   .lemoncode{
+      display:none;
+    }  
+}
+

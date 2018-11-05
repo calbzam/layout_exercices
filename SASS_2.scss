@@ -1,0 +1,51 @@
+//Resultado tema A: 
+$base-color: red;
+$principal-font-family: Arial;
+$secondary-font-family: Calibri;
+$horizontal-offset: -10px;
+
+//Resultado tema B: 
+//$base-color: blue;
+//$principal-font-family: Times New Roman;
+//$secondary-font-family: Monospace;
+//$horizontal-offset: 10px;
+
+
+.base{
+  height: 100px;
+  width: 100px;
+  padding: 25px;
+  background-color: $base-color;
+}
+
+.important{
+  height: 100px;
+  width: 100px;
+  padding: 25px;
+  background-color: darken($base-color,30%);
+}
+
+.warning{
+  height: 100px;
+  width: 100px;
+  padding: 25px;
+  background-color: lighten($base-color,30%);
+}
+
+.principal{
+  font-family: $principal-font-family;
+}
+
+.secondary{
+  font-family: $secondary-font-family;
+}
+
+box-shadow{
+  width: 300px;
+  padding: 25px;
+  margin: 25px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: $horizontal-offset 10px 5px 0px rgba(0,0,0,0.75);
+}
+
